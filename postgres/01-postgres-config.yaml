@@ -7,6 +7,6 @@ metadata:
     app: postgres
 data:
   POSTGRES_DB: postgresdb
-  POSTGRES_USER: odoo
-  POSTGRES_PASSWORD: odoo
+  POSTGRES_USER: datacododoo
+  POSTGRES_PASSWORD: datacododoo
 

@@ -6,7 +6,7 @@ metadata:
   labels:
     app: postgres # Labels and Selectors
 spec:
-  #type: NodePort # Sets service type
+  type: NodePort # Sets service type
   #type: LoadBalancer
   ports:
     - port: 5432 # Sets port to run the postgres application

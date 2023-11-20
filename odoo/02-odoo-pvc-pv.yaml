@@ -9,7 +9,7 @@ metadata:
 spec:
   storageClassName: manual
   capacity:
-    storage: 5Gi # Sets PV Volume
+    storage: 3Gi # Sets PV Volume
   accessModes:
     - ReadWriteMany
   hostPath:
@@ -27,4 +27,4 @@ spec:
     - ReadWriteMany  # Sets read and write access
   resources:
     requests:
-      storage: 5Gi  # Sets volume size
+      storage: 3Gi  # Sets volume size

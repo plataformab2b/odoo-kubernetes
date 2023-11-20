@@ -7,5 +7,5 @@ metadata:
     app: odoo
 data:
   HOST: postgres
-  USER: odoo
-  PASSWORD: odoo
+  USER: datacododoo
+  PASSWORD: datacododoo

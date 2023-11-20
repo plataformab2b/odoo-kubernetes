@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: odoo
-          image: odoo:16.0 # Sets Image
+          image: odoo:17.0 # Sets Image
           imagePullPolicy: "IfNotPresent"
           ports:
             - containerPort: 8069  # Exposes container port

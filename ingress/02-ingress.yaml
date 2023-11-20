@@ -43,7 +43,7 @@ spec:
                 port:
                   number: 8069
             path: /
-  tls:
-    - hosts:
-      - www.example.com
-      secretName: example-tls
+ # tls:
+ #   - hosts:
+ #     - www.example.com
+ #     secretName: example-tls
